@@ -138,8 +138,10 @@ def is_star_break(txt):
 def clean_inline(h):
     """Clean HTML inline content to SE XHTML, preserving <i>, <b>, noteref links."""
     # CRITICAL: Move spaces from inside closing tags to outside
-    h = re.sub(r' (</[IiBbUuEeMmSsTtRrOoNnGg]+>)', r'\1 ', h)
+    h = re.sub(r'\s+(</[IiBbUuEeMmSsTtRrOoNnGg]+>)', r'\1 ', h)
     h = re.sub(r'&nbsp;(</[IiBbUu]>)', r'\1 ', h)
+    # Move spaces from start of opening tags to before them
+    h = re.sub(r'(<[IiBbUu]>)\s+', r' \1', h)
 
     # BR -> space
     h = re.sub(r'<BR\s*/?>', ' ', h, flags=re.IGNORECASE)
@@ -163,7 +165,7 @@ def clean_inline(h):
     # Endnote references: <SUP><A CLASS="sdendnoteanc"...>...<SUP>N</SUP></A></SUP>
     # Handle both with and without <I> wrapper
     h = re.sub(
-        r'<SUP><I?><A\s+CLASS="sdendnoteanc"\s+NAME="sdendnote(\d+)anc"\s+HREF="[^"]*"><SUP>(\d+)</SUP></A></I?></SUP>',
+        r'<SUP>(?:<I>)?<A\s+CLASS="sdendnoteanc"\s+NAME="sdendnote(\d+)anc"\s+HREF="[^"]*"><SUP>(\d+)</SUP></A>(?:</I>)?</SUP>',
         r'<a href="endnotes.xhtml#note-\1" id="noteref-\1" epub:type="noteref">\2</a>',
         h, flags=re.IGNORECASE
     )
@@ -214,6 +216,11 @@ def clean_inline(h):
 
     # Fix empty <b></b> and <i></i>
     h = re.sub(r'<([bi])>\s*</\1>', '', h)
+
+    # Remove orphaned </a> tags (those not preceded by noteref close pattern)
+    # Noteref links produce: ...epub:type="noteref">N</a>
+    # Orphaned </a> are standalone from stripped <A NAME="..."></A>
+    h = re.sub(r'(?<!\d)</[Aa]>', '', h)
 
     return h
 
