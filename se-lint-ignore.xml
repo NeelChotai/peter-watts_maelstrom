@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>m-036</code>
+			<reason>Placeholder cover art.</reason>
+		</ignore>
+	</file>
+	<file path="cover.svg">
+		<ignore>
+			<code>m-063</code>
+			<reason>Placeholder cover image.</reason>
+		</ignore>
+	</file>
+	<file path="uncopyright.xhtml">
+		<ignore>
+			<code>f-003</code>
+			<reason>CC licensing adaptation.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
