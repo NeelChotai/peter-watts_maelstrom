@@ -6,10 +6,16 @@
 			<reason>Placeholder cover art.</reason>
 		</ignore>
 	</file>
-	<file path="cover.svg">
+	<file path="cover.jpg">
 		<ignore>
-			<code>m-063</code>
+			<code>s-028</code>
 			<reason>Placeholder cover image.</reason>
+		</ignore>
+	</file>
+	<file path="content.opf">
+		<ignore>
+			<code>m-042</code>
+			<reason>Manual fix: removed duplicate cover-image property from cover.svg (se build-manifest bug).</reason>
 		</ignore>
 	</file>
 	<file path="uncopyright.xhtml">
