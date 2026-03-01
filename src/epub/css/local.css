@@ -81,6 +81,10 @@ section[epub|type~="epigraph"] > *{
 }
 /* End full-page epigraphs */
 
+abbr[epub|type~="se:era"]{
+	font-variant: all-small-caps;
+}
+
 blockquote.network-post{
 	font-style: normal;
 }
