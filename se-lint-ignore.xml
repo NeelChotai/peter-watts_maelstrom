@@ -30,10 +30,70 @@
 			<reason>Canadian/logical punctuation in academic citation context.</reason>
 		</ignore>
 	</file>
+	<file path="prelude.xhtml">
+		<ignore>
+			<code>t-029</code>
+			<reason>Author's original text has period after "Rowan" (source-verified).</reason>
+		</ignore>
+		<ignore>
+			<code>t-057</code>
+			<reason>Author's em-dash continuation paragraph style.</reason>
+		</ignore>
+	</file>
+	<file path="epilog.xhtml">
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
+	</file>
+	<file path="chapter-1-2.xhtml">
+		<ignore>
+			<code>y-003</code>
+			<reason>Author's deliberate mid-sentence paragraph endings.</reason>
+		</ignore>
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
+	</file>
+	<file path="chapter-1-5.xhtml">
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
+	</file>
+	<file path="chapter-1-8.xhtml">
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
+	</file>
+	<file path="chapter-1-10.xhtml">
+		<ignore>
+			<code>y-003</code>
+			<reason>Author's deliberate mid-sentence paragraph endings.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-1-13.xhtml">
 		<ignore>
 			<code>s-023</code>
 			<reason>Correct: "Third-person Limited" is a compound hyphenated literary term.</reason>
+		</ignore>
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
+	</file>
+	<file path="chapter-1-16.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Author's em-dash continuation paragraph style.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-1-17.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Author's em-dash continuation paragraph style.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-1-18.xhtml">
@@ -41,11 +101,97 @@
 			<code>t-029</code>
 			<reason>False positive: eszett (ß) in ßehemoth is inherently lowercase.</reason>
 		</ignore>
+		<ignore>
+			<code>t-057</code>
+			<reason>Author's em-dash continuation paragraph style.</reason>
+		</ignore>
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
+	</file>
+	<file path="chapter-1-19.xhtml">
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
+	</file>
+	<file path="chapter-1-21.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Author's em-dash continuation paragraph style.</reason>
+		</ignore>
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
+	</file>
+	<file path="chapter-1-22.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Author's em-dash continuation paragraph style.</reason>
+		</ignore>
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
+	</file>
+	<file path="chapter-1-23.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Author's em-dash continuation paragraph style.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-1-24.xhtml">
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
 	</file>
 	<file path="chapter-1-27.xhtml">
 		<ignore>
 			<code>t-002</code>
 			<reason>Canadian/logical punctuation in academic citation context.</reason>
+		</ignore>
+		<ignore>
+			<code>t-057</code>
+			<reason>Author's em-dash continuation paragraph style.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-1-29.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Author's em-dash continuation paragraph style.</reason>
+		</ignore>
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
+	</file>
+	<file path="chapter-1-31.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Author's em-dash continuation paragraph style.</reason>
+		</ignore>
+		<ignore>
+			<code>y-003</code>
+			<reason>Author's deliberate mid-sentence paragraph endings.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-2-1.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Author's em-dash continuation paragraph style.</reason>
+		</ignore>
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
+	</file>
+	<file path="chapter-2-2.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Author's em-dash continuation paragraph style.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-2-3.xhtml">
@@ -53,11 +199,111 @@
 			<code>t-002</code>
 			<reason>Canadian/logical punctuation in academic citation context.</reason>
 		</ignore>
+		<ignore>
+			<code>t-057</code>
+			<reason>Author's em-dash continuation paragraph style.</reason>
+		</ignore>
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
+	</file>
+	<file path="chapter-2-4.xhtml">
+		<ignore>
+			<code>y-006</code>
+			<reason>Author's contracted-prefix neologisms.</reason>
+		</ignore>
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
+	</file>
+	<file path="chapter-2-11.xhtml">
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
+	</file>
+	<file path="chapter-2-12.xhtml">
+		<ignore>
+			<code>y-003</code>
+			<reason>Author's deliberate mid-sentence paragraph endings.</reason>
+		</ignore>
+		<ignore>
+			<code>y-006</code>
+			<reason>Author's contracted-prefix neologisms.</reason>
+		</ignore>
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
+	</file>
+	<file path="chapter-2-14.xhtml">
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
+	</file>
+	<file path="chapter-2-15.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Author's em-dash continuation paragraph style.</reason>
+		</ignore>
 	</file>
 	<file path="chapter-2-16.xhtml">
 		<ignore>
 			<code>t-029</code>
 			<reason>False positive: eszett (ß) in ßehemoth is inherently lowercase.</reason>
+		</ignore>
+		<ignore>
+			<code>t-057</code>
+			<reason>Author's em-dash continuation paragraph style.</reason>
+		</ignore>
+		<ignore>
+			<code>y-003</code>
+			<reason>Author's deliberate mid-sentence paragraph endings.</reason>
+		</ignore>
+		<ignore>
+			<code>y-006</code>
+			<reason>Author's contracted-prefix neologisms.</reason>
+		</ignore>
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
+	</file>
+	<file path="chapter-2-20.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Author's em-dash continuation paragraph style.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-2-21.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Author's em-dash continuation paragraph style.</reason>
+		</ignore>
+		<ignore>
+			<code>y-003</code>
+			<reason>Author's deliberate mid-sentence paragraph endings.</reason>
+		</ignore>
+		<ignore>
+			<code>y-006</code>
+			<reason>Author's contracted-prefix neologisms.</reason>
+		</ignore>
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
+	</file>
+	<file path="chapter-2-22.xhtml">
+		<ignore>
+			<code>y-006</code>
+			<reason>Author's contracted-prefix neologisms.</reason>
+		</ignore>
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
 		</ignore>
 	</file>
 	<file path="chapter-3-1.xhtml">
@@ -66,10 +312,26 @@
 			<reason>False positive: eszett (ß) in ßehemoth is inherently lowercase.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-3-2.xhtml">
+		<ignore>
+			<code>y-006</code>
+			<reason>Author's contracted-prefix neologisms.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-3-5.xhtml">
 		<ignore>
 			<code>s-023</code>
 			<reason>Correct: "TursiPops" is a brand name with intentional camelCase.</reason>
+		</ignore>
+		<ignore>
+			<code>t-057</code>
+			<reason>Author's em-dash continuation paragraph style.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-3-6.xhtml">
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
 		</ignore>
 	</file>
 	<file path="chapter-3-7.xhtml">
@@ -77,11 +339,25 @@
 			<code>t-002</code>
 			<reason>Canadian/logical punctuation in academic citation context.</reason>
 		</ignore>
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
 	</file>
 	<file path="chapter-3-8.xhtml">
 		<ignore>
 			<code>s-023</code>
 			<reason>Correct: "AWOL" is an acronym that should remain all-caps.</reason>
+		</ignore>
+		<ignore>
+			<code>y-006</code>
+			<reason>Author's contracted-prefix neologisms.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-3-9.xhtml">
+		<ignore>
+			<code>y-006</code>
+			<reason>Author's contracted-prefix neologisms.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-3-10.xhtml">
@@ -89,11 +365,23 @@
 			<code>t-029</code>
 			<reason>False positive: eszett (ß) in ßehemoth is inherently lowercase.</reason>
 		</ignore>
+		<ignore>
+			<code>y-006</code>
+			<reason>Author's contracted-prefix neologisms.</reason>
+		</ignore>
+		<ignore>
+			<code>y-007</code>
+			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
 	</file>
 	<file path="chapter-3-11.xhtml">
 		<ignore>
 			<code>t-029</code>
 			<reason>False positive: eszett (ß) in ßehemoth is inherently lowercase.</reason>
+		</ignore>
+		<ignore>
+			<code>y-006</code>
+			<reason>Author's contracted-prefix neologisms.</reason>
 		</ignore>
 	</file>
 	<file path="endnotes.xhtml">
@@ -120,14 +408,16 @@
 			<reason>False positive: eszett (ß) in ßehemoth is inherently lowercase.</reason>
 		</ignore>
 		<ignore>
+			<code>t-057</code>
+			<reason>Author's em-dash continuation paragraph style.</reason>
+		</ignore>
+		<ignore>
+			<code>y-003</code>
+			<reason>Author's deliberate mid-sentence paragraph endings.</reason>
+		</ignore>
+		<ignore>
 			<code>y-034</code>
 			<reason>URL contains periods.</reason>
-		</ignore>
-	</file>
-	<file path="prelude.xhtml">
-		<ignore>
-			<code>t-029</code>
-			<reason>Author's original text has period after "Rowan" (source-verified).</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
