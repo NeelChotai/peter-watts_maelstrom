@@ -24,4 +24,110 @@
 			<reason>CC licensing adaptation.</reason>
 		</ignore>
 	</file>
+	<file path="acknowledgements.xhtml">
+		<ignore>
+			<code>t-002</code>
+			<reason>Canadian/logical punctuation in academic citation context.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-1-13.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>Correct: "Third-person Limited" is a compound hyphenated literary term.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-1-18.xhtml">
+		<ignore>
+			<code>t-029</code>
+			<reason>False positive: eszett (ß) in ßehemoth is inherently lowercase.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-1-27.xhtml">
+		<ignore>
+			<code>t-002</code>
+			<reason>Canadian/logical punctuation in academic citation context.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-2-3.xhtml">
+		<ignore>
+			<code>t-002</code>
+			<reason>Canadian/logical punctuation in academic citation context.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-2-16.xhtml">
+		<ignore>
+			<code>t-029</code>
+			<reason>False positive: eszett (ß) in ßehemoth is inherently lowercase.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-3-1.xhtml">
+		<ignore>
+			<code>t-029</code>
+			<reason>False positive: eszett (ß) in ßehemoth is inherently lowercase.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-3-5.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>Correct: "TursiPops" is a brand name with intentional camelCase.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-3-7.xhtml">
+		<ignore>
+			<code>t-002</code>
+			<reason>Canadian/logical punctuation in academic citation context.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-3-8.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>Correct: "AWOL" is an acronym that should remain all-caps.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-3-10.xhtml">
+		<ignore>
+			<code>t-029</code>
+			<reason>False positive: eszett (ß) in ßehemoth is inherently lowercase.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-3-11.xhtml">
+		<ignore>
+			<code>t-029</code>
+			<reason>False positive: eszett (ß) in ßehemoth is inherently lowercase.</reason>
+		</ignore>
+	</file>
+	<file path="endnotes.xhtml">
+		<ignore>
+			<code>t-002</code>
+			<reason>Canadian/logical punctuation in academic citation context.</reason>
+		</ignore>
+		<ignore>
+			<code>t-029</code>
+			<reason>URLs in academic citations contain periods adjacent to lowercase letters.</reason>
+		</ignore>
+		<ignore>
+			<code>y-034</code>
+			<reason>URLs in academic citations contain embedded periods.</reason>
+		</ignore>
+	</file>
+	<file path="notes-and-references.xhtml">
+		<ignore>
+			<code>t-002</code>
+			<reason>Canadian/logical punctuation in academic citation context.</reason>
+		</ignore>
+		<ignore>
+			<code>t-029</code>
+			<reason>False positive: eszett (ß) in ßehemoth is inherently lowercase.</reason>
+		</ignore>
+		<ignore>
+			<code>y-034</code>
+			<reason>URL contains periods.</reason>
+		</ignore>
+	</file>
+	<file path="prelude.xhtml">
+		<ignore>
+			<code>t-029</code>
+			<reason>Author's original text has period after "Rowan" (source-verified).</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
