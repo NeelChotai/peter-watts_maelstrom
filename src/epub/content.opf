@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-CA">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/peter-watts/maelstrom</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
@@ -48,7 +48,7 @@
 			&lt;p&gt;Meanwhile, Achilles Desjardins sits inside the most sophisticated surveillance system ever built, a government \u201clawbreaker\u201d tasked with hunting rogue information on the internet. But the net is evolving beyond anyone\u2019s control, spawning self-modifying digital organisms that resist every attempt at containment. As Clarke\u2019s biological plague and the digital contagion converge, the systems designed to protect civilization begin tearing it apart.&lt;/p&gt;
 			&lt;p&gt;The second novel in the Rifters trilogy, &lt;i&gt;Maelstrom&lt;/i&gt; expands the scope from the claustrophobic ocean floor to a collapsing near-future civilization, weaving together themes of ecology, network theory, and the thin line between parasite and symbiont.&lt;/p&gt;
 		</meta>
-		<dc:language>en-US</dc:language>
+		<dc:language>en-CA</dc:language>
 		<dc:source>https://rifters.com/real/MAELSTROM.htm</dc:source>
 		<meta property="se:production-notes">This ebook was produced from the author's Creative Commons-licensed digital edition available at rifters.com. The source text uses CC BY-NC-SA 2.5 licensing rather than public domain. Network/machine text passages are styled as blockquotes with class="network-post". Footnotes from the Notes and References section have been converted to endnotes.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
