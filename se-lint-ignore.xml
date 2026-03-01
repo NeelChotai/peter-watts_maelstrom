@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="LICENSE.md">
+		<ignore>
+			<code>f-003</code>
+			<reason>CC BY-NC-SA 2.5 licensing; this book is not public domain.</reason>
+		</ignore>
+	</file>
 	<file path="colophon.xhtml">
 		<ignore>
 			<code>m-036</code>
 			<reason>Placeholder cover art.</reason>
+		</ignore>
+		<ignore>
+			<code>t-064</code>
+			<reason>Placeholder cover art title is not yet finalized.</reason>
 		</ignore>
 	</file>
 	<file path="cover.jpg">
@@ -39,6 +49,10 @@
 			<code>t-057</code>
 			<reason>Author's em-dash continuation paragraph style.</reason>
 		</ignore>
+		<ignore>
+			<code>y-009</code>
+			<reason>Author's intentional lowercase dialog continuation after em-dash interruption (source-verified).</reason>
+		</ignore>
 	</file>
 	<file path="epilog.xhtml">
 		<ignore>
@@ -64,6 +78,10 @@
 	</file>
 	<file path="chapter-1-8.xhtml">
 		<ignore>
+			<code>t-019</code>
+			<reason>Single-word emphasis and proper name with sentence-ending period outside italics.</reason>
+		</ignore>
+		<ignore>
 			<code>y-007</code>
 			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
 		</ignore>
@@ -80,8 +98,18 @@
 			<reason>Correct: "Third-person Limited" is a compound hyphenated literary term.</reason>
 		</ignore>
 		<ignore>
+			<code>t-023</code>
+			<reason>Author's italicized thought fragment preceding dialog close.</reason>
+		</ignore>
+		<ignore>
 			<code>y-007</code>
 			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
+	</file>
+	<file path="chapter-1-15.xhtml">
+		<ignore>
+			<code>y-013</code>
+			<reason>Canadian/logical punctuation: period after closing single quote in quoted term.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-1-16.xhtml">
@@ -112,6 +140,10 @@
 	</file>
 	<file path="chapter-1-19.xhtml">
 		<ignore>
+			<code>t-004</code>
+			<reason>Author's contracted-prefix neologism — opening apostrophe is an elision mark ('fly).</reason>
+		</ignore>
+		<ignore>
 			<code>y-007</code>
 			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
 		</ignore>
@@ -137,6 +169,14 @@
 		</ignore>
 	</file>
 	<file path="chapter-1-23.xhtml">
+		<ignore>
+			<code>t-017</code>
+			<reason>Author's italicized internal monologue style: comma inside italics is part of the thought fragment.</reason>
+		</ignore>
+		<ignore>
+			<code>t-019</code>
+			<reason>Single-word emphasis with dialog punctuation outside italics.</reason>
+		</ignore>
 		<ignore>
 			<code>t-057</code>
 			<reason>Author's em-dash continuation paragraph style.</reason>
@@ -180,6 +220,10 @@
 	</file>
 	<file path="chapter-2-1.xhtml">
 		<ignore>
+			<code>t-017</code>
+			<reason>Author's italicized internal monologue style: comma inside italics is part of the thought fragment.</reason>
+		</ignore>
+		<ignore>
 			<code>t-057</code>
 			<reason>Author's em-dash continuation paragraph style.</reason>
 		</ignore>
@@ -192,6 +236,10 @@
 		<ignore>
 			<code>t-057</code>
 			<reason>Author's em-dash continuation paragraph style.</reason>
+		</ignore>
+		<ignore>
+			<code>t-076</code>
+			<reason>Author's in-world shorthand for character types (K's and r's).</reason>
 		</ignore>
 	</file>
 	<file path="chapter-2-3.xhtml">
@@ -210,12 +258,22 @@
 	</file>
 	<file path="chapter-2-4.xhtml">
 		<ignore>
+			<code>t-019</code>
+			<reason>Single-word emphasis with dialog punctuation outside italics.</reason>
+		</ignore>
+		<ignore>
 			<code>y-006</code>
 			<reason>Author's contracted-prefix neologisms.</reason>
 		</ignore>
 		<ignore>
 			<code>y-007</code>
 			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
+	</file>
+	<file path="chapter-2-6.xhtml">
+		<ignore>
+			<code>t-017</code>
+			<reason>Author's italicized internal monologue style: comma inside italics is part of the thought fragment.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-2-11.xhtml">
@@ -225,6 +283,22 @@
 		</ignore>
 	</file>
 	<file path="chapter-2-12.xhtml">
+		<ignore>
+			<code>t-004</code>
+			<reason>Author's contracted-prefix neologism — opening apostrophe is an elision mark ('fly).</reason>
+		</ignore>
+		<ignore>
+			<code>t-017</code>
+			<reason>Author's italicized internal monologue style: comma inside italics is part of the thought fragment.</reason>
+		</ignore>
+		<ignore>
+			<code>t-030</code>
+			<reason>GPS is correctly marked as initialism; lint false positive.</reason>
+		</ignore>
+		<ignore>
+			<code>t-032</code>
+			<reason>GPS is correctly marked as initialism, not a name.</reason>
+		</ignore>
 		<ignore>
 			<code>y-003</code>
 			<reason>Author's deliberate mid-sentence paragraph endings.</reason>
@@ -236,6 +310,10 @@
 		<ignore>
 			<code>y-007</code>
 			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
+		</ignore>
+		<ignore>
+			<code>y-031</code>
+			<reason>Author's original text lacks period after dialog tag (source-verified).</reason>
 		</ignore>
 	</file>
 	<file path="chapter-2-14.xhtml">
@@ -251,6 +329,10 @@
 		</ignore>
 	</file>
 	<file path="chapter-2-16.xhtml">
+		<ignore>
+			<code>t-017</code>
+			<reason>Author's italicized internal monologue style: comma inside italics is part of the thought fragment.</reason>
+		</ignore>
 		<ignore>
 			<code>t-029</code>
 			<reason>False positive: eszett (ß) in ßehemoth is inherently lowercase.</reason>
@@ -274,11 +356,19 @@
 	</file>
 	<file path="chapter-2-20.xhtml">
 		<ignore>
+			<code>t-017</code>
+			<reason>Author's italicized internal monologue style: comma inside italics is part of the thought fragment.</reason>
+		</ignore>
+		<ignore>
 			<code>t-057</code>
 			<reason>Author's em-dash continuation paragraph style.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-2-21.xhtml">
+		<ignore>
+			<code>t-019</code>
+			<reason>Single-word emphasis with dialog punctuation outside italics.</reason>
+		</ignore>
 		<ignore>
 			<code>t-057</code>
 			<reason>Author's em-dash continuation paragraph style.</reason>
@@ -298,6 +388,10 @@
 	</file>
 	<file path="chapter-2-22.xhtml">
 		<ignore>
+			<code>t-019</code>
+			<reason>Single-word emphasis with dialog punctuation outside italics.</reason>
+		</ignore>
+		<ignore>
 			<code>y-006</code>
 			<reason>Author's contracted-prefix neologisms.</reason>
 		</ignore>
@@ -305,8 +399,16 @@
 			<code>y-007</code>
 			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
 		</ignore>
+		<ignore>
+			<code>y-016</code>
+			<reason>Author's deliberate two-period ellipsis in dialog (source-verified).</reason>
+		</ignore>
 	</file>
 	<file path="chapter-3-1.xhtml">
+		<ignore>
+			<code>t-010</code>
+			<reason>Author wrote 1.35 as a numeric concentration, not a time (source-verified).</reason>
+		</ignore>
 		<ignore>
 			<code>t-029</code>
 			<reason>False positive: eszett (ß) in ßehemoth is inherently lowercase.</reason>
@@ -316,6 +418,20 @@
 		<ignore>
 			<code>y-006</code>
 			<reason>Author's contracted-prefix neologisms.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-3-3.xhtml">
+		<ignore>
+			<code>t-017</code>
+			<reason>Author's italicized internal monologue style: comma inside italics is part of the thought fragment.</reason>
+		</ignore>
+		<ignore>
+			<code>t-019</code>
+			<reason>Single-word emphasis with dialog punctuation outside italics.</reason>
+		</ignore>
+		<ignore>
+			<code>t-028</code>
+			<reason>Contraction mark ('ve) after italicized word — not a mis-curled quote (source-verified).</reason>
 		</ignore>
 	</file>
 	<file path="chapter-3-5.xhtml">
@@ -330,6 +446,14 @@
 	</file>
 	<file path="chapter-3-6.xhtml">
 		<ignore>
+			<code>t-003</code>
+			<reason>Author's intentional multi-paragraph dialog without closing quote (standard literary convention).</reason>
+		</ignore>
+		<ignore>
+			<code>t-017</code>
+			<reason>Author's italicized internal monologue style: comma inside italics is part of the thought fragment.</reason>
+		</ignore>
+		<ignore>
 			<code>y-007</code>
 			<reason>Author's contracted-prefix neologisms ('skin, 'scaphe, etc.).</reason>
 		</ignore>
@@ -338,6 +462,22 @@
 		<ignore>
 			<code>t-002</code>
 			<reason>Canadian/logical punctuation in academic citation context.</reason>
+		</ignore>
+		<ignore>
+			<code>t-003</code>
+			<reason>Author's dialog with multiple quoted segments within a single paragraph.</reason>
+		</ignore>
+		<ignore>
+			<code>t-017</code>
+			<reason>Author's italicized internal monologue style: comma inside italics is part of the thought fragment.</reason>
+		</ignore>
+		<ignore>
+			<code>t-019</code>
+			<reason>Single-word emphasis with dialog punctuation outside italics.</reason>
+		</ignore>
+		<ignore>
+			<code>t-038</code>
+			<reason>Author's dialog with multiple quoted segments within a single paragraph.</reason>
 		</ignore>
 		<ignore>
 			<code>y-007</code>
@@ -361,6 +501,14 @@
 		</ignore>
 	</file>
 	<file path="chapter-3-10.xhtml">
+		<ignore>
+			<code>t-017</code>
+			<reason>Author's italicized internal monologue style: comma inside italics is part of the thought fragment.</reason>
+		</ignore>
+		<ignore>
+			<code>t-019</code>
+			<reason>Single-word emphasis with dialog punctuation outside italics.</reason>
+		</ignore>
 		<ignore>
 			<code>t-029</code>
 			<reason>False positive: eszett (ß) in ßehemoth is inherently lowercase.</reason>
@@ -390,6 +538,10 @@
 			<reason>Canadian/logical punctuation in academic citation context.</reason>
 		</ignore>
 		<ignore>
+			<code>t-019</code>
+			<reason>Journal title with sentence-ending period outside italics.</reason>
+		</ignore>
+		<ignore>
 			<code>t-029</code>
 			<reason>URLs in academic citations contain periods adjacent to lowercase letters.</reason>
 		</ignore>
@@ -402,6 +554,10 @@
 		<ignore>
 			<code>t-002</code>
 			<reason>Canadian/logical punctuation in academic citation context.</reason>
+		</ignore>
+		<ignore>
+			<code>t-020</code>
+			<reason>Endnote reference links placed within formatting in notes-and-references section.</reason>
 		</ignore>
 		<ignore>
 			<code>t-029</code>
