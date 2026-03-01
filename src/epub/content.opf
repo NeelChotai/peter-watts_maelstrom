@@ -4,7 +4,7 @@
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/peter-watts/maelstrom</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
-		<dc:rights>The source text of this ebook is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 2.5 Generic license (https://creativecommons.org/licenses/by-nc-sa/2.5/). The contributors to this ebook release their contributions under the same terms.</dc:rights>
+		<dc:rights>The source text in this ebook is licensed by Peter Watts under the Creative Commons Attribution-NonCommercial-ShareAlike 2.5 license (https://creativecommons.org/licenses/by-nc-sa/2.5/). The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the CC0 1.0 Universal Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
 		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
@@ -51,8 +51,8 @@
 		<dc:language>en-CA</dc:language>
 		<dc:source>https://rifters.com/real/MAELSTROM.htm</dc:source>
 		<meta property="se:production-notes">This ebook was produced from the author's Creative Commons-licensed digital edition available at rifters.com. The source text uses CC BY-NC-SA 2.5 licensing rather than public domain. Network/machine text passages are styled as blockquotes with class="network-post". Footnotes from the Notes and References section have been converted to endnotes.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">112321</meta>
+		<meta property="se:reading-ease.flesch">78.50</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Maelstrom_(Watts_novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/peter-watts_maelstrom</meta>
 		<dc:creator id="author">Peter Watts</dc:creator>
@@ -67,8 +67,13 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Placeholder</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/placeholder</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="producer-1">Anonymous</dc:contributor>
-		<meta property="file-as" refines="#producer-1">Anonymous</meta>
+		<dc:contributor id="transcriber-1">Peter Watts</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Watts, Peter</meta>
+		<meta property="se:url.homepage" refines="#transcriber-1">https://rifters.com/</meta>
+		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Neel Chotai</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Chotai, Neel</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://github.com/NeelChotai/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
